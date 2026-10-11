@@ -1,0 +1,4 @@
+model,rmse_train,r2_train,rmse_dev,r2_dev,rmse_test,r2_test
+KMeans,0.957,0.084,1.39,0.048,1.046,0.155
+RandomForest,0.665,0.558,1.17,0.326,0.819,0.482
+NeuralNet,0.754,0.432,1.155,0.344,0.795,0.512

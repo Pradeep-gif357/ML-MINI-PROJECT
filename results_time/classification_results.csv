@@ -1,0 +1,13 @@
+model,split,kappa,auroc,confusion
+LogisticRegression,train,0.885,0.99,"[[1163, 49], [43, 550]]"
+LogisticRegression,dev,0.871,0.99,"[[326, 22], [8, 161]]"
+LogisticRegression,test,0.866,1.0,"[[140, 0], [17, 101]]"
+KMeans,train,0.852,0.98,"[[1144, 68], [51, 542]]"
+KMeans,dev,0.875,0.985,"[[327, 21], [8, 161]]"
+KMeans,test,0.929,0.99,"[[140, 0], [9, 109]]"
+RandomForest,train,1.0,1.0,"[[1212, 0], [0, 593]]"
+RandomForest,dev,0.9,0.988,"[[333, 15], [8, 161]]"
+RandomForest,test,0.866,0.994,"[[140, 0], [17, 101]]"
+NeuralNet,train,0.884,0.992,"[[1136, 76], [19, 574]]"
+NeuralNet,dev,0.889,0.99,"[[324, 24], [2, 167]]"
+NeuralNet,test,0.906,0.998,"[[140, 0], [12, 106]]"
